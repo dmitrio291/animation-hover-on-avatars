@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анимация при ховере на аватарки</title>
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="square">
+        <span class="square__span"></span>
+        <span class="square__span"></span>
+        <span class="square__span"></span>
+        <div class="content">
+            <div class="content__box active" id="content1">
+                <div class="card">
+                    <div class="card__img-box">
+                        <img src="img1.jpg" alt="Виталий Котов">
+                    </div>
+                    <div class="card__content">
+                        <h2 class="card__title">Виталий Котов<br><b>Дизайнер</b></h2>
+                        <ul class="socials">
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+            <div class="content__box" id="content2">
+                <div class="card">
+                    <div class="card__img-box">
+                        <img src="img2.jpeg" alt="Анатолий Кунин">
+                    </div>
+                    <div class="card__content">
+                        <h2 class="card__title">Анатолий Кунин<br><b>Бекендер</b></h2>
+                        <ul class="socials">
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+            <div class="content__box" id="content3">
+                <div class="card">
+                    <div class="card__img-box">
+                        <img src="img3.jpg" alt="Вячеслав Кононенко">
+                    </div>
+                    <div class="card__content">
+                        <h2 class="card__title">Вячеслав Кононенко<br><b>Фронтендер</b></h2>
+                        <ul class="socials">
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+            <div class="content__box" id="content4">
+                <div class="card">
+                    <div class="card__img-box">
+                        <img src="img4.jpg" alt="Игорь Дружный">
+                    </div>
+                    <div class="card__content">
+                        <h2 class="card__title">Игорь Дружный<br><b>Тестировщик</b></h2>
+                        <ul class="socials">
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link" href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="waves">
+            <div class="waves__wave" id="wave1"></div>
+            <div class="waves__wave" id="wave2"></div>
+            <div class="waves__wave" id="wave3"></div>
+            <div class="waves__wave" id="wave4"></div>
+        </div>
+        <div class="icons">
+            <div class="icons__icon active" data-id="content1">
+                <img class="icons__img" src="img1.jpg" alt="Виталий Котов">
+            </div>
+            <div class="icons__icon" data-id="content2">
+                <img class="icons__img" src="img2.jpeg" alt="Анатолий Кунин">
+            </div>
+            <div class="icons__icon" data-id="content3">
+                <img class="icons__img" src="img3.jpg" alt="Вячеслав Кононенко">
+            </div>
+            <div class="icons__icon" data-id="content4">
+                <img class="icons__img" src="img4.jpg" alt="Игорь Дружный">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
